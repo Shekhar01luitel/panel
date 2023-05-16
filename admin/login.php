@@ -1,3 +1,21 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Retrieve the submitted form data
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    // Check if the entered credentials match the expected values
+    if (($email === 'surendra')||($email === 'shekhar') && ($password === 'surendra@123')||($password === 'shekhar')) {
+        // Redirect the user to the home page or perform any other desired action
+        header('Location: /admin/html/index.html');
+        exit();
+        
+    } else {
+        // Credentials are incorrect, display an error message
+        $error = 'Incorrect username or password';
+    }
+}
+?>
 <!DOCTYPE html>
 <html
   lang="en"
@@ -106,6 +124,9 @@
                   <div class="mb-3">
                   <button class="btn btn-primary d-grid w-100" type="submit">Sign in</button>
                 </div>
+                <?php if (isset($error)) : ?>
+                <div class="alert alert-danger"><?php echo $error; ?></div>
+                <?php endif; ?>
               </form>
             </div>
           </div>
@@ -113,7 +134,6 @@
         </div>
       </div>
     </div>
-    <a href="/admin/html/index.html"></a>
 
     <!-- / Content -->
 
