@@ -5,11 +5,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $password = $_POST['password'];
 
     // Check if the entered credentials match the expected values
-    if (($email === 'surendra')||($email === 'shekhar') && ($password === 'surendra@123')||($password === 'shekhar')) {
+    if (($email === 'surendra' || $email === 'shekhar') && ($password === 'surendra@123' || $password === 'shekhar')) {
         // Redirect the user to the home page or perform any other desired action
         header('Location: /admin/html/index.html');
         exit();
-        
     } else {
         // Credentials are incorrect, display an error message
         $error = 'Incorrect username or password';
@@ -85,8 +84,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </a>
               </div>
               <!-- /Logo -->
-              <form id="formAuthentication" class="mb-3" action="login.php" method="POST">
-                <div class="mb-3">
+              <form id="formAuthentication" class="mb-3" action="login-process.php" method="POST">                <div class="mb-3">
                   <label for="email" class="form-label">Email or Username</label>
                   <input
                     type="text"
