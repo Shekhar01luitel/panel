@@ -52,6 +52,29 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script>
+      function calculateTotal() {
+      var subtotal = 0;
+      var shipping = 15;
+      var items = document.querySelectorAll("#invoiceTable tbody tr");
+  
+      items.forEach(function(item) {
+        var price = parseFloat(item.cells[1].textContent);
+        var quantity = parseInt(item.cells[2].textContent);
+        var total = price * quantity;
+  
+        item.cells[3].textContent = "$" + total.toFixed(2);
+        subtotal += total;
+      });
+  
+      document.getElementById("subtotal").textContent = "$" + subtotal.toFixed(2);
+      document.getElementById("shipping").textContent = "$" + shipping.toFixed(2);
+  
+      var totalAmount = subtotal + shipping;
+      document.getElementById("total").textContent = "$" + totalAmount.toFixed(2);
+    }
+    </script>
+    
   </head>
 
   <body>
