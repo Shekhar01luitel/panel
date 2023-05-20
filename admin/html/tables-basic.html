@@ -60,7 +60,7 @@
           <div class="app-brand demo">
             <a href="index.html" class="app-brand-link">
               <span class="app-brand-logo demo">
-                <img src="/admin/assets/img/logo.png" alt="Logo" width="70" height="70" />
+                <img src="/admin/assets/img/logo.png" alt="Logo" width="70" height="70"/>
               </span>
               <p class="h3" style="margin-top: 10%;" ><b>MSS</b> ERP</p>
             </a>
@@ -72,642 +72,918 @@
 
           <ul class="menu-inner py-1">
             <!-- Dashboard -->
-            <li class="menu-item">
-              <a href="index.html" class="menu-link ">
+            <li class="menu-item open">
+              <a href="index.html" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                <div data-i18n="Layouts">Dashboard</div>
+                <div data-i18n="MSS -Dashboard" style="color: blue;">MSS -Dashboard</div>
               </a>
 
-              <!-- <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Without menu">Finance Dashboard</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Without navbar">Inventory Dashboard</div>
-                  </a>
-                </li>
-              </ul> -->
-            </li>
-
-            <!-- Master -->
-            <li class="menu-header small text-uppercase">
-              <span class="menu-header-text">Master</span>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Account Info</div>
-              </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <!-- <i class="menu-icon tf-icons bx bx-dock-top"></i> -->
-                    <div data-i18n="Account Settings">Ledger</div>
+                    <a href="#" class="menu-link">
+                      <div data-i18n="User Dashboard">User Dashboard</div>
+                    </a>
+                  </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">
+                    <div data-i18n="Finance Dashboard">Finance Dashboard</div>
                   </a>
-                  <ul class="menu-sub">
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Create</div>
-                      </a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Modify</div>
-                      </a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Display</div>
-                      </a>
-                    </li>
-                  </ul>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">
+                    <div data-i18n="Inventory Dashboard">Inventory Dashboard</div>
+                  </a>
                 </li>
               </ul>
+            </li>
+
+            <!-- sample -->
+            <!-- <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                <div data-i18n="Finance">Test</div>
+              </a>
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <div data-i18n="Account Settings">Ledger Group</div>
-                  </a>
-                  <ul class="menu-sub">
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Create</div>
-                      </a>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Payment">Payment</div>
+                    </a>
+                    <ul class="menu-sub">
                       <li class="menu-item">
-                        <a href="#" class="menu-link">
-                          <div data-i18n="Notifications">Modify</div>
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Bank Payment">sub-Payment</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Bank Payment">receipts</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </li>
+              </ul>
+            </li> -->
+
+            <!-- MSS -Finance Modules -->
+            <li class="menu-item">
+              <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon tf-icons bx bx-cube-alt"></i>
+                <div data-i18n="MSS -Finance Modules" style="color: blue;">MSS -Operation Modules</div>
+              </a>
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Finance">MSS -Finance</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard">Immediate Dashboard</div>
                         </a>
                       </li>
+                    </ul>
+                    <ul class="menu-sub">
                       <li class="menu-item">
-                        <a href="#" class="menu-link">
-                          <div data-i18n="Notifications">Display</div>
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Payment ">Payment</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Bank Payment -(MFBP)">Bank Payment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Cash Payment -(MFCP)">Cash Payment</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Payment ">Receipt</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Bank Receipt -(MFBR)">Bank Receipt</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Cash Receipt -(MFCR)">Cash Receipt</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Journal Voucher">Journal Voucher</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Journal Voucher -(MFJV)">Journal Voucher</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Purchase Exp. Voucher -(MFPEJV)">Purchase Exp. Voucher</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Contra Voucher">Contra Voucher</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Contra Voucher -(MFCV)">Contra Voucher</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Debit &  Credit Note">Debit &  Credit Note</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Debit Note -(MFDN)">Debit Note</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Credit Note -(MFCN)">Credit Note</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Finance Activity">Finance Activity</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Ledger Opening">Ledger Opening</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="PDC Mangement">PDC Mangement</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Bank Reconciliation">Bank Reconciliation</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Bank Guarantee Operation">Bank Guarantee Operation</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Currency Exchange Operation">Currency Exchange Operation</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </li>
+              </ul>
+
+              <!-- MSS -Purchase Modules -->
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Purchase">MSS -Purchase</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard -(MPID)">Immediate Dashboard</div>
                         </a>
                       </li>
-                    </li>
-                  </ul>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Purchase Request -(MPPRQ)">Purchase Request</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Purchase Order -(MPPO)">Purchase Order</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Goods Receipt Note -(MPGRN)">Goods Receipt Note</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Purchase Invoice -(MPPI)">Purchase Invoice</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Purchase Return -(MPPR)">Purchase Return</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Purchase Activity (MPA)">Purchase Activity</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Purchase Request Adjustment">Purchase Request Adjustment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Purchase Order Adjustment">Purchase Order Adjustment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Purchase LC Update">Purchase LC Update</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
               </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Account Group</div>
-              </a>
+              <!-- MSS -Sales Modules -->
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Create</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Modify</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Alter</div>
-                  </a>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Purchase">MSS -Sales</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard -(MSSD)">Immediate Dashboard</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Sales Order -(MSSO)">Sales Order</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Goods Dispatch Note -(MSGDN)">Goods Dispatch Note</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Sales Invoice -(MSSI)">Sales Invoice</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Sales return -(MSSR)">Sales return</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Sales Activity (MSA)">Sales Activity</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Sales Order Adjustment">Sales Order Adjustment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Purchase Order Adjustment">Rate Policy Operation</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Sales Dispatch Plan">Sales Dispatch Plan</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Vehicle Registration">Vehicle Registration</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Material Loading Slip -(MLS)">Material Loading Slip</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Material Loading Slip -(WB Update)">Material Loading Slip</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
               </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">User Management</div>
-              </a>
-              <!-- <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Create</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Modify</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Alter</div>
-                  </a>
-                </li>
-              </ul> -->
-            </li>
 
-            <!-- Inventory Info -->
-            <li class="menu-header small text-uppercase">
-              <span class="menu-header-text">Inventory Info</span>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Product Master</div>
-              </a>
+              <!-- MSS -Inventory Modules -->
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Create</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Modify</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Display</div>
-                  </a>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Inventory">MSS -Inventory</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard -(MIID)">Immediate Dashboard</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Requisition Silip -(MISI)">Requisition Silip</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Store Issue Silip -(MISIS)">Store Issue Silip</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Store Issue Return -(MISIR)">Store Issue Return</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Location Transfer -(MILT)">Location Transfer</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Stock Branch Transfer -(MIST)">Stock Branch Transfer</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Stock Branch Received -(MISR)">Stock Branch Received</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Inventory Activity (MIA)">Inventory Activity</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Goods Request Adjustment">Goods Request Adjustment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Inventory Opening Stock">Inventory Opening Stock</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Inventory Stock Valuation">Inventory Stock Valuation</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Post (JV)Stock Consumption">Post (JV)Stock Consumption</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
               </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Product Group Master</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Create</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Modify</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Display</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Unit Of Measurement</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Create</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Modify</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Display</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
 
-            <!-- Transaction -->
-            <li class="menu-header small text-uppercase">
-              <span class="menu-header-text">Transaction</span>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Finance</div>
-              </a>
+              <!-- MSS -Manufacturing  Modules -->
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <!-- <i class="menu-icon tf-icons bx bx-dock-top"></i> -->
-                    <div data-i18n="Account Settings">Payment</div>
-                  </a>
-                  <ul class="menu-sub">
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Bank Payment</div>
-                      </a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Cash Payment</div>
-                      </a>
-                    </li>
-                  </ul>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Manufacturing">MSS -Manufacturing</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard -(MMID)">Immediate Dashboard</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Production Order -(MMPO)">Production Order</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Production Issue -(MMPI)">Production Issue</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Production Receipt -(MMPR)">Production Receipt</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Production In/Out  -(MMPIO)">Production In/Out</div>
+                        </a>
+                      </li>
+                    </ul>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link menu-toggle">
+                          <div data-i18n="Manufacturing  Activity (MMA)">Manufacturing  Activity</div>
+                        </a>
+                        <ul class="menu-sub">
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Production Order Adjustment">Production Order Adjustment</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Production Plan">Production Plan</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="WIP Operation">WIP Operation</div>
+                            </a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="#" class="menu-link">
+                              <div data-i18n="Plan Product Update">Plan Product Update</div>
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
               </ul>
+
+              <!-- MSS -Fixed Assest Modules  -->
               <ul class="menu-sub">
                 <li class="menu-item">
-                  <a href="javascript:void(0);" class="menu-link menu-toggle">
-                    <!-- <i class="menu-icon tf-icons bx bx-dock-top"></i> -->
-                    <div data-i18n="Account Settings">Receipt</div>
-                  </a>
-                  <ul class="menu-sub">
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Bank Receipt</div>
-                      </a>
-                    </li>
-                    <li class="menu-item">
-                      <a href="#" class="menu-link">
-                        <div data-i18n="Notifications">Cash Receipt</div>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Notifications">Journal Voucher</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Purchase Expense</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Counter Voucher</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Debit Note</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Credit Note</div>
-                  </a>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MSS -Fixed Assest">MSS -Fixed Assest</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="javascript:void(0);" class="menu-link">
+                          <div data-i18n="Immediate Dashboard -(MFAID)">Immediate Dashboard</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
                 </li>
               </ul>
+
+              <!-- MSS -Reports Modules -->
               <li class="menu-item">
-                <a href="javascript:void(0);" class="menu-link menu-toggle">
-                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                  <div data-i18n="Account Settings">Purchases</div>
+                <a href="#" class="menu-link menu-toggle">
+                  <i class="menu-icon tf-icons bx bxs-report"></i>
+                  <div data-i18n="MSS -Reports Modules" style="color: blue;">MSS -Reports Modules</div>
                 </a>
                 <ul class="menu-sub">
                   <li class="menu-item">
-                    <a href="#" class="menu-link">
-                      <div data-i18n="Notifications">Purchase Request</div>
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Finance Report -(MFR)">Finance Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="General Report">General Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Day Book">Day Book</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Day Roker">Day Roker</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Day Operation">Day Operation</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Bank Guarantee">Bank Guarantee</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Bank Reconcile Analysis">Bank Reconcile Analysis</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Party Cofirmation Letter">Party Cofirmation Letter</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Trial Balance">Trial Balance</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Purchase  Report -(MPR)">Purchase  Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Vendor Wise Ageing">Vendor Wise Ageing</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Purchase Report">Purchase Report</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Sales Report -(MSR)">Sales Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Dealer Ageing Report">Dealer Ageing Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Customer Ageing Report">Customer Ageing Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Sales Report">Sales Report</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Inventory Report -(MIR)">Inventory Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Stock Wise Ageing">Stock Wise Ageing</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Product Wise report">Product Wise report</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Manufacturing Report -(MMR)">Manufacturing Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Production Ageing Report">Production Ageing Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Production In/Out Report">Production In/Out Report</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <!-- MIS REPORT -->
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="MIS Report">MIS Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Profit & Loss Report">Profit & Loss Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Balance Sheet Statement">Balance Sheet Statement</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Govermance Compliance -(MGR)">Govermance Compliance</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Anusuchi 13 Report">Anusuchi 13 Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="TDS Certificate Statement">TDS Certificate Statement</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="TDS Report">TDS Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Excise Dutty -Purchase">Excise Dutty - Purchase</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Excise Dutty - Anusuchi 4">Excise Dutty - Anusuchi 4</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Excise Dutty -(FG) Summary">Excise Dutty -(FG) Summary</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Pragyapan Patra Report">Pragyapan Patra Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Purchase Vat Register">Purchase Vat Register</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Sales Vat Register">Sales Vat Register</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="Materlized View Report -(IRD)">Materlized View Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="CBMS API Configuration">CBMS API Configuration</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link menu-toggle">
+                      <div data-i18n="Govermance Compliance -(MGR)">General Report</div>
+                    </a>
+                    <ul class="menu-sub">
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="(MD) Information System Audit">(MD) Information System Audit</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="(MD) Cancel Reject Report">(MD) Cancel Reject Report</div>
+                        </a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="#" class="menu-link">
+                          <div data-i18n="(MD) Cancel Reject Report">(MD) Cancel Reject Report</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+
+              <!-- MSS -Security Tools -->
+              <li class="menu-item">
+                <a href="#" class="menu-link menu-toggle">
+                  <i class="menu-icon tf-icons bx bx-lock-open-alt"></i>
+                  <div data-i18n="MSS -Reports Modules" style="color: blue;">MSS -Security Tools</div>
+                </a>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Company Configuration">Company Configuration</div>
                     </a>
                   </li>
                   <li class="menu-item">
-                    <a href="#" class="menu-link">
-                      <div data-i18n="Connections">Purchase Order</div>
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Branch Configuration">Branch Configuration</div>
                     </a>
                   </li>
                   <li class="menu-item">
-                    <a href="#" class="menu-link">
-                      <div data-i18n="Account">Good Receipt Note</div>
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="System Configuration">System Configuration</div>
                     </a>
                   </li>
                   <li class="menu-item">
-                    <a href="#" class="menu-link">
-                      <div data-i18n="Account">Purchase Invoice</div>
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Deployeement Tools">Deployeement Tools</div>
                     </a>
                   </li>
                   <li class="menu-item">
-                    <a href="#" class="menu-link">
-                      <div data-i18n="Account">Purchase Return</div>
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Magration Tools">Magration Tools</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Information System Audit">Information System Audit</div>
                     </a>
                   </li>
                 </ul>
               </li>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Sales</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Sales Order</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Sales Challan</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Sales Invoice</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Sales Return</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Inventory</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Goods Request</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Goods Consumption</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Location Transfer</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Bank Transfer</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Bank Receipt</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-header small text-uppercase">
-              <span class="menu-header-text">Report</span>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Financial</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">General Ledger</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Day Book</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Bank Reconcial Analysis</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Bank Guarantee</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Party Confirmation Letter</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Day Book(Traditional)</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Inv Management(IVM)</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Product Stock Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Groupwise Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Movement.A</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Location Stock.R</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Location In/Out Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Locationwise S.Movement</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Bank Receipt Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Branchwise S.R</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Footwise Stock Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Branch Transfer Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Branch Receipt Report</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Purchase & Procument</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Datawise Purchase</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Productwise Purchase</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Vendorwise Purchase</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Locationwise Purchase</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Groupwise Purchase</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Categorywise</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Good Receipt Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Purchase Return Report</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Sales</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Datawise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Productwise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Customerwise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Locationwise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Groupwise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Product Categorywise Sales</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Sales Return Report</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Management(MFG)">Management(MFG)</div>
-              </a>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Management(MFG)">Administrating(ADM)</div>
-              </a>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Mis Report</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">B.Statement</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">P&L Statemenat</div>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="menu-item">
-              <a href="javascript:void(0);" class="menu-link menu-toggle">
-                <i class="menu-icon tf-icons bx bx-dock-top"></i>
-                <div data-i18n="Account Settings">Goverment Compliance</div>
-              </a>
-              <ul class="menu-sub">
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">Anusuchi 13</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">TDS Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Connections">TDS C.Statement</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Prgyapanpatra Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Purchase Vat Report</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">Sales Vat Register</div>
-                  </a>
-                </li>
-                <li class="menu-item">
-                  <a href="#" class="menu-link">
-                    <div data-i18n="Account">CBMS Report(IRD)</div>
-                  </a>
-                </li>
-              </ul>
+
+              <!-- User Management -->
+              <li class="menu-item">
+                <a href="#" class="menu-link menu-toggle">
+                  <i class="menu-icon tf-icons bx bx-user"></i>
+                  <div data-i18n="User Management" style="color: blue;">User Management</div>
+                </a>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Company Configuration">Example 1</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Branch Configuration">Example 2</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="System Configuration">Example 3</div>
+                    </a>
+                  </li>
+                  <!-- <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Deployeement Tools">Deployeement Tools</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Magration Tools">Magration Tools</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Information System Audit">Information System Audit</div>
+                    </a>
+                  </li> -->
+                </ul>
+              </li>
+
+              <!-- CRM -->
+              <li class="menu-item">
+                <a href="#" class="menu-link menu-toggle">
+                  <i class="menu-icon tf-icons bx bx-network-chart"></i>
+                  <div data-i18n="CRM" style="color: blue;">CRM</div>
+                </a>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Admin Follow-up">Admin Follow-up</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Admin Follow-up">Employ Follow-up</div>
+                    </a>
+                  </li>
+                  <!--<li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="System Configuration">System Configuration</div>
+                    </a>
+                  </li>
+                   <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Deployeement Tools">Deployeement Tools</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Magration Tools">Magration Tools</div>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="javascript:void(0);" class="menu-link">
+                      <div data-i18n="Information System Audit">Information System Audit</div>
+                    </a>
+                  </li> -->
+                </ul>
+              </li>
             </li>
           </ul>
         </aside>
