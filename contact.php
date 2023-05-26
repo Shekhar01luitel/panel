@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 if(isset($_POST['submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -13,4 +13,4 @@ if(isset($_POST['submit'])) {
     mail($to, $subject, $txt, $headers);
     header("Location: index.html?mailsend");
 }
-?>
+?> -->
